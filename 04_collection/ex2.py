@@ -50,7 +50,7 @@ ori = [[1, 2], [3, 4]]
 result2 = ori.copy()
 result2[0].append(100)  # 원본도 바뀜
 print(ori, result2)
-
+  
 # 깊은 복사를 하려면?
 import copy
 
